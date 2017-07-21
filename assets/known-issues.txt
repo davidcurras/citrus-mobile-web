@@ -1,0 +1,37 @@
+Updating a Device name, ip or type is reseting device controls values.
+
+-web mobile
+  -devices
+    -controls get/set state
+
+-web admin
+  -devices (curl -name & ip & type-)
+    -controls (curl -state-)
+  -types (curl -name & httpApi-)
+    -controls (curl -name & control*slider|select|button*-)
+      -selects (curl -item-)
+
+-initial configuration
+  -device types
+    - Samsung Audio
+      - Power (button)
+      - Volume (slider)
+      - Playlist (select) (should have 2 song names or more to pick from)
+    - Sony
+      - Power (button)
+      - Volume (slider)
+      - Playlist (select) (should have 2 song names or more to pick from)
+    - Apple TV
+      - Power (button)
+      - Brightness (slider)
+      - Volume (slider)
+    - Citrus Lights
+      - On/Off (button)
+  -registered devices in the system
+    - "Bedroom Apple TV" (Apple TV)
+    - "Livingroom Player" (Samsung Audio)
+    - "Livingroom Lights" (Citrus Lights)
+
+QUESTIONS
+* constrols are not editable, only 3 controls: slider|select|button?
+* can manually refresh to see changes?
