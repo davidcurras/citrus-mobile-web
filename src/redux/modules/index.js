@@ -7,6 +7,8 @@ import env from './env'
 import request from './request'
 import init from './init'
 import ui from './ui'
+import device from './device'
+import deviceType from './device-type'
 
 
 const rootReducer = combineReducers({
@@ -14,6 +16,8 @@ const rootReducer = combineReducers({
   request,
   init,
   ui,
+  device,
+  deviceType,
 
   // redux-form
   form,
