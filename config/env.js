@@ -36,7 +36,7 @@ const env: EnvState = {
   NODE_ENV: NODE_ENV || 'production',
 
   // App settings
-  API_URL: API_URL || 'http://localhost:6000',
+  API_URL: API_URL || 'https://safe-coast-13609.herokuapp.com',
   ROOT_URL: ROOT_URL || 'http://localhost:3000',
   USE_MOCK_API: USE_MOCK_API === 'true' || false,
   SECURE_COOKIE: SECURE_COOKIE === 'true' || false,
